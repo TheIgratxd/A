@@ -1,0 +1,98 @@
+*{
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  @media only screen and (max-width: 576px) {
+    
+  }
+
+  @media only screen and (min-width: 576px) {
+    
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+input {
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-color: #ffffff;
+  background-color: #2a5869;
+  border-radius: 5px; 
+}
+
+button{
+    background-color: #2a5869;
+}
+
+.datos{
+    text-align: center;
+    font-family: Times;
+    background: #2a5869;
+    width: 100%;
+    padding: 10px;
+    border-radius: 14px;
+    color: white;
+
+}
+
+.nave{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.logo{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.condulogo{
+  border-radius: 14px;
+}
+
+.secciones {
+  width: 50%;
+  padding: 15px;
+  margin: 500px;
+  margin-top: 150px;
+  box-shadow: 7px 13px 37px rgb(54, 135, 228);
+}
+
+.secciones h4 {
+  
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder{
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  
+}
+
+button {
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgb(190, 197, 199);
+   
+}
+
